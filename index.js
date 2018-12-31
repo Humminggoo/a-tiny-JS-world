@@ -83,11 +83,7 @@ function getInfo(being){
    However, please, REFRAIN from improving visuals at least until your code is reviewed
    so code reviewers might focus on a single file that is index.js.
    */
-print(getInfo(dog));
-print(getInfo(cat));
-print(getInfo(woman));
-print(getInfo(man));
-print(getInfo(catwoman));
+[dog, cat, woman, man, catwoman].forEach(i => print(getInfo(i)));
 /* Print examples:
    print('ABC');
    print('<strong>ABC</strong>');
